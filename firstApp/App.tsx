@@ -9,7 +9,7 @@ import { StatusBar, useColorScheme } from 'react-native';
 import {
   SafeAreaProvider,
 } from 'react-native-safe-area-context';
-import { Text } from 'react-native';
+import Display from './components/display/Display';
 
 function App() {
   const isDarkMode = useColorScheme() === 'dark';
@@ -17,7 +17,8 @@ function App() {
   return (
     <SafeAreaProvider>
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
-      <Text>Hello, World!</Text>
+      <Display />
+      
     </SafeAreaProvider>
   );
 }
