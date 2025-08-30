@@ -3,9 +3,7 @@ import { Text } from 'react-native';
 
 const Display = () => {
     return (
-        <div>
-            <Text>Hello, World!</Text>
-        </div>
+        <Text>Hello, World!</Text>
     );
 };
 

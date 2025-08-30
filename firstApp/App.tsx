@@ -9,7 +9,7 @@ import { StatusBar, useColorScheme } from 'react-native';
 import {
   SafeAreaProvider,
 } from 'react-native-safe-area-context';
-import Display from './components/display/Display';
+import Display from './display/Display';
 
 function App() {
   const isDarkMode = useColorScheme() === 'dark';
